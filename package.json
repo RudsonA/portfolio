@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudsonA/portfolio.git"
+  },
+  "author": "Rudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudsonA/portfolio/issues"
+  },
+  "homepage": "https://github.com/RudsonA/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
