@@ -46,3 +46,7 @@ footer {
     color: white;
     text-align: center;
 }
+
+.icons {
+    display: block;
+}
