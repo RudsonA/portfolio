@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -6,8 +5,44 @@ body {
 
 .box {
     height: 100vh;
-    width: 100%; 
-    background-size: cover; 
-    display: table; 
+    width: 100%;
+    background-size: cover;
+    display: table;
     background-attachment: fixed;
+}
+
+h1 {
+    font-family: arial black;
+    font-size: 50px;
+    color: #E4496D;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.box1 {
+    background-color: #252934;
+}
+
+
+div p {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #252934;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
