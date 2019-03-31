@@ -30,9 +30,11 @@
     <!-- Main layout -->
     <main>
 
-        <div class="box box2">
-            
-        </div>
+        <div class="box box2 none" id="hide">
+            <h2>My first ever webpage, first week of class</h2> 
+            <iframe src="https://rudsona.github.io/CBC5-Week1-HW/"></frame>
+          </div>
+
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -63,6 +65,11 @@
     </script>
     <!-- Personalized JS -->
     <script src="index.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            document.getElementById("hide").classList.remove("none");
+        })
+    </script>
 </body>
 
 </html>

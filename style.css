@@ -50,3 +50,21 @@ footer {
 .icons {
     display: block;
 }
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-style: bold;
+  }
+  
+iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 500px;
+}
+
+.hide {
+    display: none;
+}
