@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Personalized CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box box1">
+        <header>
+            <h1>Rudson Augustin</h1>
+            <p>Newbie Web Developer</p>
+        </header>
+    </div>
+
+    <!-- Main layout -->
+    <main>
+
+        <div class="box box2 none" id="hide">
+            <h2>My first ever webpage, first week of class</h2>
+            <iframe src="https://rudsona.github.io/CBC5-Week1-HW/"></iframe>
+        </div>
+
+        <div class="box box3">
+            <h2>Coding is the life I live</h2>
+        </div>
+        <div class="box box4">
+            <h2>JavaScript Game</h2>
+            <iframe src="https://rudsona.github.io/cbc5-week4/" frameborder="0"></iframe>
+        </div>
+
+        <div class="box"></div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p class="icons">
+                <a href="https://twitter.com/04Tribe" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/rudsonaugustin/" class="fa fa-linkedin"></a>
+            </p>
+            <p>
+                Rudson Augustin &copy;<span id="yearStamp"></span>
+            </p>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Personalized JS -->
+    <script src="index.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            document.getElementById("hide").classList.remove("none");
+        })
+    </script>
+</body>
+
+</html>

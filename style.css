@@ -1,75 +1,31 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.box {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-}
-
 h1 {
-    font-family: arial black;
-    font-size: 50px;
+    color: #E4496D;
+    font-family: Arial Black; 
+    font-size: 3.125rem;
+}
+
+h4 {
     color: #E4496D;
 }
 
-header {
-    margin: 0;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-
+/* Classes */
+.line {
+    background-color: yellow;
 }
 
-.box1 {
-    background-color: #252934;
-}
-
-
-div p {
-    color: #FFFFFF;
-}
-
-footer {
-    background-color: #252934;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.white-text {
     color: white;
-    text-align: center;
 }
 
-.icons {
-    display: block;
+
+
+
+/* ID's */
+#top-layer {
+    background-color: #252934; 
+    margin-bottom: 0;
 }
 
-h2 {
-    margin: 0;
-    text-align: center;
-    font-style: bold;
-  }
-  
-iframe {
-    margin: 0;
-    padding: 0;
-    border: none;
-    width: 100%;
-    height: 500px;
-}
-
-.hide {
-    display: none;
-}
-
-.box3 {
-    background-image: url("images/livelife.jpg");
-    background-color: #E4496D;
+#bottom-layer {
+    background-color: #252934; 
 }

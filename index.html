@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My Portfolio</title>
+    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,48 +16,59 @@
 
     <!-- Personalized CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-
-    <div class="box box1">
-        <header>
-            <h1>Rudson Augustin</h1>
-            <p>Newbie Web Developer</p>
-        </header>
+    <div class="jumbotron text-center" id="top-layer">
+        <h1 class="display-4">Rudson Augustin</h1>
+        <p class="lead"></p>
+        <hr class="my-4 line">
+        <p class="white-text">I am a newbie web developer!</p>
     </div>
 
-    <!-- Main layout -->
-    <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"><i class="fa fa-home" aria-hidden="true"></i></a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Tip-Cal<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Timer</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Group Project</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="box box2 none" id="hide">
-            <h2>My first ever webpage, first week of class</h2>
-            <iframe src="https://rudsona.github.io/CBC5-Week1-HW/"></iframe>
+    <main class="container">
+
+        <!-- About Me Section -->
+        <div class="col-sm-4">
+            <h2>About Me</h2>
         </div>
 
-        <div class="box box3">
-            <h2>Coding is the life I live</h2>
-        </div>
-        <div class="box box4">
-            <h2>JavaScript Game</h2>
-            <iframe src="https://rudsona.github.io/cbc5-week4/" frameborder="0"></iframe>
-        </div>
 
-        <div class="box"></div>
+        <!-- Projects -->
+        <div class="col-sm-8">
+            <h2>Projects</h2>
+        </div>
 
     </main>
 
-    <footer>
-        <div class="footer">
-            <p class="icons">
-                <a href="https://twitter.com/04Tribe" class="fa fa-twitter"></a>
-                <a href="https://www.linkedin.com/in/rudsonaugustin/" class="fa fa-linkedin"></a>
-            </p>
-            <p>
-                Rudson Augustin &copy;<span id="yearStamp"></span>
-            </p>
-        </div>
+
+    <footer class="jumbotron text-center" id="bottom-layer">
+        <h4>Rudson Augustin &copy; <span id="yearStamp"></span>
     </footer>
+    </h4>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -69,13 +80,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <!-- Personalized JS -->
+
+    <!-- Personalized Javascript -->
     <script src="index.js"></script>
-    <script>
-        window.addEventListener("load", function () {
-            document.getElementById("hide").classList.remove("none");
-        })
-    </script>
+
 </body>
 
 </html>
