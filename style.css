@@ -68,3 +68,8 @@ iframe {
 .hide {
     display: none;
 }
+
+.box3 {
+    background-image: url("images/livelife.jpg");
+    background-color: #E4496D;
+}
