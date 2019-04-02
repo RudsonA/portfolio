@@ -8,6 +8,11 @@ h1 {
     font-size: 3.125rem;
 }
 
+h3 {
+    color: #E4496D;
+    /* font-family: Arial Black;  */
+}
+
 h4 {
     color: #E4496D;
 }
@@ -35,5 +40,5 @@ h4 {
 }
 
 #bottom-layer {
-    background-color: #252934; 
+    background-color: #1B2938; 
 }

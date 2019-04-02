@@ -13,7 +13,8 @@
 
     <!-- Icon Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Personalized CSS -->
     <link rel="stylesheet" href="style.css">
@@ -72,7 +73,9 @@
                     <li><span class="fa-li"><i class="fas fa-check-square"></i></span>MySQL and PHPMyAdmin</li>
                     <li><span class="fa-li"><i class="fas fa-check-square"></i></span>NPM</li>
                     <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Linux</li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Google Cloud Services: GAE and GCE</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Google Cloud Services: GAE and GCE
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>VSCODE</li>
                     <br>
                     <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>Laravel</li>
                     <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>Python</li>
@@ -85,6 +88,46 @@
             <!-- Projects -->
             <div class="col-sm-8">
                 <h2 class="text-center">Projects</h2>
+                <div class="tip-calculator-stuff">
+                    <h3 class="text-center">Tip Calculator with Javascript</h3>
+                    <!-- BEGIN main form -->
+                    <form class="container" action="" method="post">
+                        <!-- First question. -->
+                        <div class="form-group">
+                            <label for="bill"> How much was your bill?
+                                <input class="form-control" type="text" name="bill" id="billAmt"
+                                    aria-describedby="billAmount">
+                            </label>
+                        </div>
+                        <!-- Second question -->
+                        <div class="form-group">
+                            <label for="sharing">How many people are sharing your bill?
+                                <input class="form-control" type="number" name="sharing" id="peopleAmt"
+                                    aria-describedby="partyTotal">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <!-- Third question -->
+                            <label for="service">How was your service?
+                                <select class="form-control" name="service" id="service"
+                                    aria-describedby="servieSelection">
+                                    <option disabled selected value="null"> --Choose an option</option>
+                                    <option value="0.3">Outstanding</option>
+                                    <option value="0.2">Good</option>
+                                    <option value="0.15">Okay</option>
+                                    <option value="0">Bad</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <button class="btn btn-primary form-control" type="button" id="calculate">Calculate</button>
+                    </form>
+                    <!-- END main form -->
+                    <!-- Present tip to user -->
+                    <div class="container" id="totalTip" class="form-group">
+                        <p id="tip"><em>Tip will be shown here..</em></p>
+                    </div>
+                </div>
             </div>
 
         </div>
