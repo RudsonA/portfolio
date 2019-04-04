@@ -132,7 +132,15 @@
                 </div>
                 <br>
                 <h3 class="text-center">Timer</h3>
-                
+                <form class="form-group">
+                    <label for="days">Days:</label> <input class="form-control" type="number" name="days" id="days">
+                    <label for="hours">Hours:</label> <input class="form-control" type="number" name="hours" id="hours">
+                    <label for="minutes">Minutes:</label> <input class="form-control" type="number" name="minutes" id="minutes">
+                    <label for="seconds">Seconds:</label> <input type="number" class="form-control" name="seconds" id="seconds">
+                    <input class="btn btn-success" type="button" value="start countdown" id="button" onclick="timer()"></input>
+                </form>
+                <div id="timer" class="countdown">
+                </div>
             </div>
 
         </div>
