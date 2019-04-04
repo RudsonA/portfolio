@@ -49,6 +49,8 @@ document.getElementById("calculate").onclick = function() {
 // Timer/Countdown pROJECT
 
 function timer() { 
+
+    // clearInterval(x);
 // Getting the value submitted
 let day = document.querySelector("#days").value; 
 let hour = document.querySelector("#hours").value;
@@ -64,6 +66,8 @@ sec = sec * 1000;
 let inputAmt = day + hour + min + sec; 
 let now = new Date().getTime();
 let startPoint = inputAmt + now; 
+
+document.querySelector("#button").style.display = "none"; 
 
 // Updates the countdown every second
 let x = setInterval(function() {
