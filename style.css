@@ -22,28 +22,49 @@ h4 {
     color: #E4496D;
 }
 
+footer {
+    padding-top: 2.5rem;
+}
+
 /* Classes */
-.me {
-    border-radius: 50%;
+.countdown {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.fa-github-square {
+    font-size: 4rem;
+    color: #6cc644;
+}
+
+.fa-linkedin {
+    font-size: 4rem;
+    color: #0077b5;
+}
+
+.fa-twitter-square {
+    font-size: 4rem;
+    color: #1da1f2;
 }
 
 .line {
     background-color: yellow;
 }
 
+.me {
+    border-radius: 50%;
+}
+
+
 .white-text {
     color: white;
 }
 
-.countdown {
-    text-align: center;
-    font-size: 4rem;
-}
 
 
 /* ID's */
 #top-layer {
-    background-color: #252934;
+    background-color: black;
     margin-bottom: 0;
 }
 
